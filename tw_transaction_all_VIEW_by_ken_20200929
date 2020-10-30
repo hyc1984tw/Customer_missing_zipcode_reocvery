@@ -7,6 +7,8 @@ Union the following tables:
 
 */
 
+-----------------------------------------------------------------------------------------------
+
 Create or replace view `mldata-8nkm.cdp_mltable.tw_transaction` as
 
 WITH T1 AS(
