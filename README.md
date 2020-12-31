@@ -18,18 +18,27 @@ The following four steps will be conducted in this section:
 All the sql codes made in this section are stored in this repository.
 
 ## 2- Customer residential zipcode prediction via Machine Learning Model
-Another solution is to make prediction on customer's missing zipcode via the built machine learning model. The zipcode prediction machine learning model has been built by the company's colleagues. Two supervised models were built in this project. 
+Another solution is to make prediction on customer's missing zipcode via the built machine learning model. The zipcode prediction machine learning model has been built by the data team of DKT Taiwan. Two supervised models were constructed, which are: 
 * Model 1: Make prediction of residential city of the members.
 * Model 2: Make prediction of residential zipcode of the members after the model 1. 
 
-We will first make predictions on residential city of the members who have missing zipcode information 
+We will first allocate the member who have missing residential information to corresponding cities in Taiwan using Model 1. Once these members are allocated to the city in Taiwan, the second prediction will be made to predict their corresponding region in the city, which is the zipcode information. 
 
+### 2.1 Data Collection & Preprocessing
 
-### 2.1 Data Collection
+In the data collection part, we will make query to gather the member data with missing residential zipcode information. These data includes the stores they visited in the past, the sum of money they spent, and visit in weekday or weekend etc.. All the data are preprocessed and organised to the table with the format requried by the ML model predictions.
 
-cdp_mltable is the pre-processed tables for zipcode machine learning. 
-
-
-### 2.2 Data Preprocessing
+All the sql code used for the query are saved in this repository. 
 
 ### 2.3 ML Prediction
+The ML model is run by GCP.
+
+* MOdel 1 Predition results:
+
+
+* Model 2 Predition results:
+
+
+The entire flow of the ML process is shown below:
+
+
