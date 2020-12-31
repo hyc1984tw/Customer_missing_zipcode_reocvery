@@ -40,6 +40,7 @@ The ML model is run by GCP.
 
 
 The entire flow of the ML process is shown below:
+#  
 ![taiwan_ml_zipcode_version 02_update_2020_09_29](https://user-images.githubusercontent.com/68263082/103403120-1849ec80-4b8a-11eb-9888-d10452b841a5.png)
 
 
