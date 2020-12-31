@@ -33,7 +33,7 @@ All the sql code used for the query are saved in this repository.
 ### 2.3 ML Prediction
 The ML model is run by GCP.
 
-* MOdel 1 Predition results:
+* Model 1 Predition results:
 
 
 * Model 2 Predition results:
